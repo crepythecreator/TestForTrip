@@ -1,0 +1,8 @@
+.root {
+  display: flex;
+  gap: 19px;
+}
+
+.action {
+  flex: 1;
+}

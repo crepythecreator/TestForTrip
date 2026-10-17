@@ -1,3 +1,3 @@
-export { Button } from './Button'
-export { TextField } from './TextField'
-export { TextArea } from './TextArea'
+export { LinkButton } from './LinkButton'
+export { CtaBanner } from './CtaBanner'
+export { TelegramIcon, PortfolioIcon } from './icons'

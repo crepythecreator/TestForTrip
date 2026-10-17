@@ -1,5 +1,5 @@
-import { FeedbackPage } from '@/pages/feedback'
+import { TeamPage } from '@/pages/team'
 
 export function App() {
-  return <FeedbackPage />
+  return <TeamPage />
 }
