@@ -1,0 +1,20 @@
+.ui-button {
+  padding: 12px 20px;
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent);
+  border: 0;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.ui-button:hover:not(:disabled) {
+  background: var(--accent-hover);
+}
+
+.ui-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

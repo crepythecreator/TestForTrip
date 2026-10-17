@@ -1,0 +1,17 @@
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.feedback-form__status {
+  font-size: 14px;
+}
+
+.feedback-form__status--ok {
+  color: var(--success);
+}
+
+.feedback-form__status--err {
+  color: var(--error);
+}
